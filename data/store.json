@@ -1,0 +1,417 @@
+{
+  "categories": [
+    {
+      "id": "cat-beras",
+      "name": "Beras & Biji-bijian",
+      "slug": "beras-biji-bijian",
+      "icon": "🌾",
+      "description": "Beras premium, pulen, wangi dan beras ketan",
+      "order": 1
+    },
+    {
+      "id": "cat-minyak",
+      "name": "Minyak & Margarin",
+      "slug": "minyak-margarin",
+      "icon": "🍳",
+      "description": "Minyak goreng kemasan pouch, jerigen, dan mentega",
+      "order": 2
+    },
+    {
+      "id": "cat-gula-bumbu",
+      "name": "Gula & Bumbu Dapur",
+      "slug": "gula-bumbu-dapur",
+      "icon": "🧂",
+      "description": "Gula pasir, garam beryodium, kecap, dan bumbu masak",
+      "order": 3
+    },
+    {
+      "id": "cat-telur-susu",
+      "name": "Telur & Susu",
+      "slug": "telur-susu",
+      "icon": "🥚",
+      "description": "Telur ayam negeri segar dan aneka susu kental manis",
+      "order": 4
+    },
+    {
+      "id": "cat-mie",
+      "name": "Mie Instan & Bihun",
+      "slug": "mie-instan-bihun",
+      "icon": "🍜",
+      "description": "Indomie, mie kuah, mie goreng, bihun, dan pasta",
+      "order": 5
+    },
+    {
+      "id": "cat-tepung",
+      "name": "Tepung & Olahan",
+      "slug": "tepung-olahan",
+      "icon": "🥐",
+      "description": "Tepung terigu, tapioka, beras, dan maizena",
+      "order": 6
+    },
+    {
+      "id": "cat-minuman",
+      "name": "Kopi, Teh & Minuman",
+      "slug": "kopi-teh-minuman",
+      "icon": "☕",
+      "description": "Kopi renceng, teh celup, sirup, dan air mineral",
+      "order": 7
+    },
+    {
+      "id": "cat-sabun",
+      "name": "Sabun & Kebersihan",
+      "slug": "sabun-kebersihan",
+      "icon": "🧼",
+      "description": "Sabun cuci piring, deterjen pakaian, dan pembersih lantai",
+      "order": 8
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-bimoli-2l",
+      "name": "Minyak Goreng Bimoli Klasik 2 Liter Pouch",
+      "slug": "minyak-goreng-bimoli-2-liter",
+      "categoryId": "cat-minyak",
+      "description": "Minyak goreng kelapa sawit murni berkualitas tinggi. Diproses dari kelapa sawit pilihan untuk menghasilkan masakan yang lebih renyah dan gurih.",
+      "unit": "pouch",
+      "regularPrice": 38000,
+      "originalPrice": 40000,
+      "stock": 114,
+      "imageUrl": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&auto=format&fit=crop&q=80",
+      "tierPrices": [
+        {
+          "id": "tp-b-1",
+          "minQty": 2,
+          "maxQty": 5,
+          "price": 36500,
+          "label": "Grosir 2-5 Pouch"
+        },
+        {
+          "id": "tp-b-2",
+          "minQty": 6,
+          "maxQty": null,
+          "price": 35000,
+          "label": "Grosir Dus (≥ 6 Pouch)"
+        }
+      ],
+      "isActive": true,
+      "isFeatured": true,
+      "minOrder": 1,
+      "createdAt": "2026-10-02T14:29:49.007Z",
+      "updatedAt": "2026-10-02T14:29:49.007Z"
+    },
+    {
+      "id": "prod-beras-setra-5kg",
+      "name": "Beras Premium Setra Ramos 5 Kg Pulen & Bersih",
+      "slug": "beras-premium-setra-ramos-5kg",
+      "categoryId": "cat-beras",
+      "description": "Beras putih premium kualitas super, bebas pengawet dan pemutih. Nasi pulen dan harum, cocok untuk konsumsi harian keluarga dan rumah makan.",
+      "unit": "sak",
+      "regularPrice": 75000,
+      "originalPrice": 78000,
+      "stock": 80,
+      "imageUrl": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=600&auto=format&fit=crop&q=80",
+      "tierPrices": [
+        {
+          "id": "tp-r-1",
+          "minQty": 2,
+          "maxQty": 4,
+          "price": 72000,
+          "label": "Grosir 2-4 Sak"
+        },
+        {
+          "id": "tp-r-2",
+          "minQty": 5,
+          "maxQty": null,
+          "price": 69000,
+          "label": "Grosir Partai (≥ 5 Sak)"
+        }
+      ],
+      "isActive": true,
+      "isFeatured": true,
+      "minOrder": 1,
+      "createdAt": "2026-10-02T14:29:49.007Z",
+      "updatedAt": "2026-10-02T14:29:49.007Z"
+    },
+    {
+      "id": "prod-gulaku-1kg",
+      "name": "Gula Pasir Gulaku Premium Kuning 1 Kg",
+      "slug": "gula-pasir-gulaku-premium-1kg",
+      "categoryId": "cat-gula-bumbu",
+      "description": "Gula tebu alami kristal putih higienis dengan rasa manis alami. Cocok untuk aneka kue, masakan, dan minuman kopi atau teh.",
+      "unit": "bks",
+      "regularPrice": 18500,
+      "originalPrice": null,
+      "stock": 200,
+      "imageUrl": "https://images.unsplash.com/photo-1622484216850-25215c0e7d56?w=600&auto=format&fit=crop&q=80",
+      "tierPrices": [
+        {
+          "id": "tp-g-1",
+          "minQty": 3,
+          "maxQty": 9,
+          "price": 17500,
+          "label": "Grosir 3-9 Bungkus"
+        },
+        {
+          "id": "tp-g-2",
+          "minQty": 10,
+          "maxQty": null,
+          "price": 16800,
+          "label": "Grosir Karung/Dus (≥ 10 Bungkus)"
+        }
+      ],
+      "isActive": true,
+      "isFeatured": true,
+      "minOrder": 1,
+      "createdAt": "2026-10-02T14:29:49.007Z",
+      "updatedAt": "2026-10-02T14:29:49.007Z"
+    },
+    {
+      "id": "prod-telur-ayam-1kg",
+      "name": "Telur Ayam Negeri Fresh Pilihan 1 Kg",
+      "slug": "telur-ayam-negeri-fresh-1kg",
+      "categoryId": "cat-telur-susu",
+      "description": "Telur ayam ras segar langsung dari peternakan terpercaya. Cangkang bersih, kuning telur bulat segar bernutrisi tinggi.",
+      "unit": "kg",
+      "regularPrice": 28000,
+      "originalPrice": 30000,
+      "stock": 50,
+      "imageUrl": "https://images.unsplash.com/photo-1506976785307-8732e854ad03?w=600&auto=format&fit=crop&q=80",
+      "tierPrices": [
+        {
+          "id": "tp-t-1",
+          "minQty": 2,
+          "maxQty": 4,
+          "price": 26500,
+          "label": "Grosir 2-4 Kg"
+        },
+        {
+          "id": "tp-t-2",
+          "minQty": 5,
+          "maxQty": null,
+          "price": 25000,
+          "label": "Grosir Peti (≥ 5 Kg)"
+        }
+      ],
+      "isActive": true,
+      "isFeatured": true,
+      "minOrder": 1,
+      "createdAt": "2026-10-02T14:29:49.007Z",
+      "updatedAt": "2026-10-02T14:29:49.007Z"
+    },
+    {
+      "id": "prod-indomie-goreng",
+      "name": "Indomie Goreng Spesial Original 85g",
+      "slug": "indomie-goreng-spesial-85g",
+      "categoryId": "cat-mie",
+      "description": "Mie instan goreng favorit masyarakat Indonesia dengan bumbu gurih khas dan taburan bawang goreng renyah.",
+      "unit": "pcs",
+      "regularPrice": 3500,
+      "originalPrice": null,
+      "stock": 450,
+      "imageUrl": "https://images.unsplash.com/photo-1612927601601-6638404737ce?w=600&auto=format&fit=crop&q=80",
+      "tierPrices": [
+        {
+          "id": "tp-i-1",
+          "minQty": 5,
+          "maxQty": 39,
+          "price": 3200,
+          "label": "Grosir Eceran (5 - 39 pcs)"
+        },
+        {
+          "id": "tp-i-2",
+          "minQty": 40,
+          "maxQty": null,
+          "price": 2950,
+          "label": "Grosir 1 Dus Karton (≥ 40 pcs)"
+        }
+      ],
+      "isActive": true,
+      "isFeatured": true,
+      "minOrder": 1,
+      "createdAt": "2026-10-02T14:29:49.007Z",
+      "updatedAt": "2026-10-02T14:29:49.007Z"
+    },
+    {
+      "id": "prod-segitiga-biru-1kg",
+      "name": "Tepung Terigu Segitiga Biru Serbaguna 1 Kg",
+      "slug": "tepung-terigu-segitiga-biru-1kg",
+      "categoryId": "cat-tepung",
+      "description": "Tepung terigu protein sedang serbaguna Bogasari. Sangat cocok untuk membuat martabak manis, bolu, pancake, gorengan, dan aneka kue.",
+      "unit": "bks",
+      "regularPrice": 13500,
+      "originalPrice": 14500,
+      "stock": 140,
+      "imageUrl": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80",
+      "tierPrices": [
+        {
+          "id": "tp-s-1",
+          "minQty": 3,
+          "maxQty": 9,
+          "price": 12500,
+          "label": "Grosir 3-9 Bungkus"
+        },
+        {
+          "id": "tp-s-2",
+          "minQty": 10,
+          "maxQty": null,
+          "price": 11800,
+          "label": "Grosir Dus/Karung (≥ 10 Bungkus)"
+        }
+      ],
+      "isActive": true,
+      "isFeatured": false,
+      "minOrder": 1,
+      "createdAt": "2026-10-02T14:29:49.007Z",
+      "updatedAt": "2026-10-02T14:29:49.007Z"
+    },
+    {
+      "id": "prod-bango-520ml",
+      "name": "Kecap Manis Bango Pouch 520ml Kedelai Hitam Mallika",
+      "slug": "kecap-manis-bango-520ml",
+      "categoryId": "cat-gula-bumbu",
+      "description": "Kecap manis legendaris terbuat dari 4 bahan alami pilihan: kedelai hitam Mallika, gula kelapa, garam, dan air. Kental dan meresap ke dalam masakan.",
+      "unit": "pouch",
+      "regularPrice": 24500,
+      "originalPrice": 26000,
+      "stock": 90,
+      "imageUrl": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=600&auto=format&fit=crop&q=80",
+      "tierPrices": [
+        {
+          "id": "tp-bg-1",
+          "minQty": 2,
+          "maxQty": 5,
+          "price": 23000,
+          "label": "Grosir 2-5 Pouch"
+        },
+        {
+          "id": "tp-bg-2",
+          "minQty": 6,
+          "maxQty": null,
+          "price": 21500,
+          "label": "Grosir Dus (≥ 6 Pouch)"
+        }
+      ],
+      "isActive": true,
+      "isFeatured": false,
+      "minOrder": 1,
+      "createdAt": "2026-10-02T14:29:49.007Z",
+      "updatedAt": "2026-10-02T14:29:49.007Z"
+    },
+    {
+      "id": "prod-sunlight-650ml",
+      "name": "Sabun Cuci Piring Sunlight Jeruk Nipis 100 650ml",
+      "slug": "sunlight-jeruk-nipis-650ml",
+      "categoryId": "cat-sabun",
+      "description": "Formula ekstrak jeruk nipis asli mengangkat lemak membandel 5x lebih cepat bahkan pada wadah plastik sekalipun.",
+      "unit": "pouch",
+      "regularPrice": 15000,
+      "originalPrice": null,
+      "stock": 110,
+      "imageUrl": "https://images.unsplash.com/photo-1585670270608-b4be4fbcf05d?w=600&auto=format&fit=crop&q=80",
+      "tierPrices": [
+        {
+          "id": "tp-sl-1",
+          "minQty": 3,
+          "maxQty": 7,
+          "price": 13800,
+          "label": "Grosir 3-7 Pouch"
+        },
+        {
+          "id": "tp-sl-2",
+          "minQty": 8,
+          "maxQty": null,
+          "price": 12500,
+          "label": "Grosir Dus (≥ 8 Pouch)"
+        }
+      ],
+      "isActive": true,
+      "isFeatured": false,
+      "minOrder": 1,
+      "createdAt": "2026-10-02T14:29:49.007Z",
+      "updatedAt": "2026-10-02T14:29:49.007Z"
+    },
+    {
+      "id": "prod-kapal-api-mix",
+      "name": "Kopi Kapal Api Special Mix 1 Renceng (10 sachet x 24g)",
+      "slug": "kopi-kapal-api-special-mix-renceng",
+      "categoryId": "cat-minuman",
+      "description": "Kopi bubuk instan berpadu gula murni dengan aroma khas Kapal Api. Praktis diseduh untuk menemani waktu santai Anda.",
+      "unit": "renceng",
+      "regularPrice": 14500,
+      "originalPrice": null,
+      "stock": 75,
+      "imageUrl": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&auto=format&fit=crop&q=80",
+      "tierPrices": [
+        {
+          "id": "tp-ka-1",
+          "minQty": 2,
+          "maxQty": 4,
+          "price": 13500,
+          "label": "Grosir 2-4 Renceng"
+        },
+        {
+          "id": "tp-ka-2",
+          "minQty": 5,
+          "maxQty": null,
+          "price": 12200,
+          "label": "Grosir Karton (≥ 5 Renceng)"
+        }
+      ],
+      "isActive": true,
+      "isFeatured": true,
+      "minOrder": 1,
+      "createdAt": "2026-10-02T14:29:49.007Z",
+      "updatedAt": "2026-10-02T14:29:49.007Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1790951514057",
+      "invoiceNumber": "INV-20261002-2964",
+      "customerName": "asdf",
+      "customerPhone": "234523453245345",
+      "customerAddress": "-",
+      "notes": "",
+      "deliveryMethod": "PICKUP",
+      "paymentMethod": "QRIS",
+      "paymentStatus": "UNPAID",
+      "orderStatus": "PROCESSING",
+      "items": [
+        {
+          "productId": "prod-bimoli-2l",
+          "productName": "Minyak Goreng Bimoli Klasik 2 Liter Pouch",
+          "unit": "pouch",
+          "quantity": 6,
+          "regularPrice": 38000,
+          "priceApplied": 35000,
+          "tierLabel": "Grosir Dus (≥ 6 Pouch)",
+          "subtotal": 210000,
+          "savings": 18000,
+          "imageUrl": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&auto=format&fit=crop&q=80"
+        }
+      ],
+      "subtotal": 210000,
+      "deliveryFee": 0,
+      "totalAmount": 210000,
+      "totalSavings": 18000,
+      "createdAt": "2026-10-02T14:31:54.057Z",
+      "updatedAt": "2026-10-02T14:39:01.211Z"
+    }
+  ],
+  "settings": {
+    "storeName": "Berkah Mart Sembako & Grosir",
+    "slogan": "Belanja Kebutuhan Pokok Harian, Makin Banyak Makin Murah!",
+    "whatsappNumber": "6281234567890",
+    "address": "Jl. Pasar Lama No. 45, RT 03/RW 02, Sukamaju",
+    "city": "Jakarta Selatan",
+    "bankName": "BCA",
+    "bankAccount": "8830123456",
+    "bankHolder": "Toko Sembako Berkah",
+    "qrisImageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=PROMO-QRIS-BERKAHMART-SEMBAKO",
+    "deliveryFee": 10000,
+    "freeDeliveryMin": 150000,
+    "adminPin": "123456",
+    "heroBannerTitle": "Pusat Sembako Murah Eceran & Grosir",
+    "heroBannerSubtitle": "Harga khusus untuk warung, pedagang & kebutuhan harian keluarga. Pesan mudah via WhatsApp atau langsung di website!"
+  }
+}
